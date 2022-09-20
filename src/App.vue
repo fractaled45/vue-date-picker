@@ -1,10 +1,8 @@
 <template>
-  <h1 class="font-large">Test</h1>
+  <h1 class="text-center text-4xl">EPIC CALENDAR!!!</h1>
   <div class="m-32 border">
-    <EpicCalendar />
+    <EpicCalendar class="my-4" />
   </div>
-
-  <RouterView />
 </template>
 
 <script setup lang="ts">
